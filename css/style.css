@@ -1,0 +1,507 @@
+/* google fonts (montserat ,bebasnene & alfa slab */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+ 
+    color: #3d2514;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+/* ===========
+banner css
+============= */
+.banner-section{
+   background-image: url(../img/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 185px 0 100px;
+}
+
+/* hearder css */
+header{
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+}
+.navbar ,.navbar>.container ,.navbar .navbar-brand{
+  padding: 0 !important;
+  display: flex;
+    align-items: end !important;
+}
+header nav .sub-menu{
+    display: flex;
+    align-items: center;
+    justify-content:  flex-end;
+}
+nav .sub-menu li{
+    margin-left: 16px;
+}
+nav .sub-menu li span{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3d2514;
+    text-transform: capitalize;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #3d2514;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+/* banner css */
+.banner{
+}
+.banner-content{
+    margin-top: 70px;
+}
+.banner-content span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 2px dashed #3d2514;
+    padding: 6px 14px;
+}
+.banner-content h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.banner-content h1 span{
+    display: block;
+    border: none;
+    font-size: 56px;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 0;
+    margin-top: -12px;
+}
+.banner-img{
+ position: relative;
+}
+.price-part{
+    background: #bf2222;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -2%;
+    left: 1%;
+}
+.price-part .price-circle{
+
+width: 130px;
+
+height: 130px;
+
+align-items: center;
+
+border: 2px dashed #fff;
+
+border-radius: 50%;
+
+display: flex;
+
+justify-content: center;
+}
+.price strong{
+
+font-size: 52px;
+
+font-family: 'Bebas Neue', cursive;
+
+color: #fff;
+
+line-height: 30px;
+
+margin-right: -8px;
+}
+.price p{
+
+font-size: 20px;
+
+color: #fff;
+
+margin: 0;
+
+font-family: 'Bebas Neue', cursive;
+
+display: contents;
+}
+.price span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 20px;
+    display: block;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+
+/*================
+ tasty burger css
+=============== */
+.tasty-burger{
+
+margin: 100px 0;
+}
+.popular-burger{
+
+position: relative;
+}
+.burger-content{
+
+position: absolute;
+
+left: 24px;
+
+top: 22px;
+}
+.burger-content span{
+
+font-size: 19px;
+
+text-transform: uppercase;
+
+color: #fff;
+
+font-weight: 200;
+
+font-family:'Montserrat', sans-serif;
+
+word-spacing: -5px;
+}
+.burger-content h3{
+
+font-size: 32px;
+
+font-family:'Montserrat', sans-serif;
+
+color: #fff;
+
+text-transform: uppercase;
+
+margin-top: -8px;
+}
+.burger-content .right-content{
+
+width: 250px;
+
+line-height: 32px;
+
+margin-top: -3px;
+}
+
+
+/* ==============
+order section css
+============= */
+.order-section{
+    text-align: center;
+    overflow: hidden;
+}
+.order-section p{
+
+font-size: 18px;
+
+color: #3d2514;
+
+font-family:'Montserrat', sans-serif;
+}
+.heading-part{margin: 15px 50px 70px;}
+.heading-part span{
+
+font-size: 25px;
+
+color: #3d2514;
+
+text-transform: uppercase;
+
+background: #ffc045;
+
+padding: 12px 20px;
+
+font-family: 'Bebas Neue', cursive;
+}
+.heading-part h2{
+
+font-size: 50px;
+
+text-transform: uppercase;
+
+margin: 45px 0  20px;
+}
+.burger-item p{margin: 10px 40px 30px;font-size: 16px;}
+.burger-item h3{
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 18px;
+}
+.btn-custom{
+
+font-size: 16px;
+
+text-transform: uppercase;
+
+font-family: 'Alfa Slab One', cursive;
+color: #fff;
+background: #bf2222;
+border: 1px solid transparent;
+border-radius: 0;
+transition: .4s;
+padding: 10px 24px;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0 rgb(13 110 253 / 0%);
+}
+.btn-custom:hover{
+    border-color: #bf2223;
+    background: #fff !important;
+    color: #bf2222;
+    letter-spacing: 2px;
+}
+
+/* ===============
+upcoming events css
+============= */
+.upcoming-event{
+    margin: 100px 0 0;
+}
+.upcoming-event .slide{padding: 15px;box-shadow: 9px 12px 20px #d9d9d9;}
+.event-content{
+    margin: 15px;
+}
+.event-content span{
+font-size: 30px;
+
+text-transform: uppercase;
+
+color: #3d3d3d;
+
+font-family: 'Bebas Neue', cursive;
+}
+.event-content h4{
+
+font-size: 40px;
+
+font-family: 'Alfa Slab One', cursive;
+
+text-transform: uppercase;
+
+margin: -8px 0 32px;
+}
+.event-content p{
+    font-family:'Montserrat', sans-serif;
+font-size: 18px;
+
+color: #3d3d3d;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    text-align: left;
+    position: absolute;
+    margin-top: -40px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+
+/* =============
+booking part css
+============== */
+.booking-section{
+ background-image: url(../img/booking-banner.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ padding: 40px 0 260px;
+}
+.booking-section .booking-form{
+
+width: 745px;
+
+margin: auto;
+
+text-align: center;
+}
+.booking-form .heading-part{
+    
+margin-top: 48px;
+    
+margin-bottom: 40px;
+}
+.booking-form span{
+    
+padding: 0;
+    
+background: none;
+}
+.booking-form .heading-part h2{
+    margin-top: 3px;
+    letter-spacing: 3px;
+    }
+.booking-section .form-control{
+
+padding: 15px 18px;
+
+margin: 22px 0px;
+}
+::placeholder{
+ font-size: 18px;
+ color: #4a4a4a;
+ text-transform: uppercase;
+ font-family: 'Bebas Neue', cursive;
+}
+.booking-section .btn-custom{
+
+display: block;
+
+background: #bf2222;
+
+width: 100%;
+
+padding: 13px 24px;
+
+font-size: 18px;
+}
+
+/* =============
+footer css
+============ */
+footer{
+ background-image: url(../img/footer-banner.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center top;
+ margin: 40px;
+ margin-top: -65px;
+}
+.footer-logo{
+
+margin-top: 65px;
+
+margin-bottom: 130px;
+}
+.footer-logo p{
+
+font-size: 16px;
+
+font-family: 'Montserrat';
+
+color: #fff;
+
+font-weight: 300;
+
+margin-top: 50px;
+}
+.location{
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+height: 100%;
+}
+.location ul li{
+
+color: #fff;
+
+margin: 18px 0;
+
+display: flex;
+
+align-items: center;
+}
+.location ul li i{
+
+font-size: 28px;
+}
+.location ul li span{
+
+font-size: 18px;
+
+text-transform: uppercase;
+
+margin-left: 22px;
+}
+.copy-right p{
+
+font-size: 16px;
+
+color: #fff;
+
+font-family: 'Bebas Neue';
+}
+.social-media{
+
+display: flex;
+
+align-items: center !important;
+
+justify-content: flex-end;
+}
+.social-media ul li{
+
+margin: 0 8px;
+}
+.social-media ul li i{
+
+width: 26px;
+
+height: 26px;
+
+background: #fff;
+
+display: flex;
+
+border-radius: 50%;
+
+justify-content: center;
+
+color: #090909;
+transition: .4s;
+align-items: center;
+}
+.social-media ul li i:hover{
+    background:#bf2222 ;
+    color: #fff;
+    transform: scale(1.3);
+}
+
+ 
